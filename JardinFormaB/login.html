@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+  <!--TOP-->
+  <nav class="navbar navbar-expand-md">
+    <div class="logo">
+      <img src="img/Logo.png" alt="Logo" style="width: 40px;">
+    </div>
+
+    <div class="text mt-1">
+      <span> #TodosNosCuidamos. Realizamos despachos a todo Chile</span>
+    </div>
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+
+    <div class="collapse navbar-collapse " id="opciones">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="createAccount.html"><i class="fa-solid fa-plus"></i> Registrate</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="signin.html"> <i class="fa-solid fa-arrow-right-to-bracket"></i> Mi Cuenta</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--HEADER-->
+  <header>
+    <nav class="navbar navbar-expand-sm" style="background-color: rgba(98, 133, 100, 0.747);">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mt-1" id="mynavbar">
+          <ul class="navbar-nav">
+            <form class="d-flex">
+              <input class="form-control me-2 mt-1" type="text" placeholder="Search">
+              <button class="btn" style="background-color: rgba(76, 122, 79, 0.452);" type="button">Buscar</button>
+            </form>
+            <li class="nav-item ">
+              <a class="nav-link" href="javascript:void(0)">Maceteros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Tierra de hoja</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Flores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Arbustos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)"><i class="fa-solid fa-cart-shopping"></i> Mi carrito</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--JUMBOTRON -->
+  <div class="jumbotron mt-3 p-5 text-white d-flex">
+    <div class=" row text">
+      <div class="col-md-12 d-flex align-items-center">
+        <div class="col-md-4 rounded-3" style="background-color:rgba(75, 116, 77, 0.568);">
+      </div>
+        <div class="col-md-4 ">
+          <img class="img-fluid rounded-pill" src="img/KG.png" alt="">
+        </div>
+        <div class="col-md-4 rounded-3" style="background-color:rgba(75, 116, 77, 0.568);">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+      <!-- Container main-->
+    <div class="container container-main">  
+      <div class="col mt-5">
+
+        <!-- Fila 1 -->
+        <div class="row row-cols-lg-3 row-cols-sm-1 row-cols-md-2 mx-5">
+          
+          <!-- Tarjetas 1-->
+          <div class="col my-1">
+            <div class="card card-tijeron h-100 ">
+              <img src="img/391681Power-LeverExtendableLopper25-37in_C_HR_1024x1024.webp" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tijerón de Podar Cortarramas extensible Power-Lever.
+                  <p>(Solo se le aplicara el 5% de descuento si esta suscrito a nuestra fundación)</p>
+                </h5>
+                <p class="card-text">Cantidad disponible 10
+                  <br>
+                  Precio $10.990</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col my-1">
+            <div class="card card-tijera h-100 ">
+              <img src="img/curved-micro-tip-pruning-snips-399250-1001-02_project_main_image_1024x1024.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tijera de podar hojas curvas con protector de cuchillas Micro-Tip.
+                  <p>(Solo se le aplicara el 5% de descuento si esta suscrito a nuestra fundación)</p>
+                </h5>
+                <p class="card-text">Cantidad disponible 3
+                  <br>
+                  Precio $11.990</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col my-1">
+            <div class="card card-organizador h-100 ">
+              <img src="img/Org1_1024x1024.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Organizador de Herramientas Ajustable  Balde de 5 Gal.
+                  <p>(Solo se le aplicara el 5% de descuento si esta suscrito a nuestra fundación)</p>
+                </h5>
+                <p class="card-text">Cantidad disponible 6
+                  <br>
+                  Precio $20.000</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col my-1">
+            <div class="card card-tijeron h-100">
+              <img src="img/sobre_tomatecocktail_1024x1024.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Semillas de tomate cherry.
+                  <p>(Solo se le aplicara el 5% de descuento si esta suscrito a nuestra fundación)</p>
+                </h5>
+                <p class="card-text">Cantidad disponible 7
+                  <br>
+                  Precio $1.990</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col my-1">
+            <div class="card card-tijera h-100 ">
+              <img src="img/sobre_albahaca_1024x1024.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Semillas de albahaca.
+                  <p>(Solo se le aplicara el 5% de descuento si esta suscrito a nuestra fundación)</p>
+                </h5>
+                <p class="card-text">Cantidad disponible 3
+                  <br>
+                  Precio $1.990</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col my-1">
+            <div class="card card-organizador h-100 ">
+              <img src="img/sobre_lechugaescarola_1024x1024.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Semillas de lechuga escarola.
+                  <p>(Solo se le aplicara el 5% de descuento si esta suscrito a nuestra fundación)</p>
+                </h5>
+                <p class="card-text">Cantidad disponible 12
+                  <br>
+                  Precio $1.990</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col my-1">
+            <div class="card card-zanahoria h-100 ">
+              <img src="img/sobre_zanahoria_1024x1024.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Semillas de Zanahoria.
+                  <p>(Solo se le aplicara el 5% de descuento si esta suscrito a nuestra fundación)</p>
+                </h5>
+                <p class="card-text">Cantidad disponible 20
+                  <br>
+                  Precio $1.990</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col my-1">
+            <div class="card card-tijera-grande  h-100 ">
+              <img src="img/gsc_110511811_4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tijera de podar con Asas grandes.
+                  <p>(Solo se le aplicara el 5% de descuento si esta suscrito a nuestra fundación)</p>
+                </h5>
+                <p class="card-text">Cantidad disponible 21
+                  <br>
+                  Precio $9.990</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col my-1">
+            <div class="card card-pistola h-100 ">
+              <img src="img/front-control-watering-nozzle-with-swivel-connect-4311-600x600_1024x1024.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pistola Riego 8 Funciones con Gatillo Frontal y Sistema Destorcedor Manguera.
+                  <p>(Solo se le aplicara el 5% de descuento si esta suscrito a nuestra fundación)</p>
+                </h5>
+                <p class="card-text">Cantidad disponible 21
+                  <br>
+                  Precio $14.990</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col my-1">
+            <div class="card card-macetero1 h-100 ">
+              <img src="img/Macetero-Arena-Naranjo-OPT01_1024x1024.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Macetero Biodegradable Mediano Rojo.
+                  <p>(Solo se le aplicara el 5% de descuento si esta suscrito a nuestra fundación)</p>
+                </h5>
+                <p class="card-text">Cantidad disponible 25
+                  <br>
+                  Precio $3.990</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col my-1">
+            <div class="card card-macetero2 h-100 ">
+              <img src="img/Macetero-Clasica-RojoOpt01_1024x1024.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Macetero Biodegradable Clasica Rojo Terracota.
+                  <p>(Solo se le aplicara el 5% de descuento si esta suscrito a nuestra fundación)</p>
+                </h5>
+                <p class="card-text">Cantidad disponible 4
+                  <br>
+                  Precio $4.790</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col my-1">
+            <div class="card card-macetero3 h-100 ">
+              <img src="img/ActualBlanco-OPT01_1024x1024.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Macetero Biodegradable Actual Blanco.
+                  <p>(Solo se le aplicara el 5% de descuento si esta suscrito a nuestra fundación)</p>
+                </h5>
+                <p class="card-text">Cantidad disponible 10
+                  <br>
+                  Precio $4.790</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col my-1">
+            <div class="card card-macetero4 h-100 ">
+              <img src="img/Macetero-Arena-Negro-OPT01_1024x1024.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Macetero Biodegradable Alto Mediano de arena.
+                  <p>(Solo se le aplicara el 5% de descuento si esta suscrito a nuestra fundación)</p>
+                </h5>
+                <p class="card-text">Cantidad disponible 10
+                  <br>
+                  Precio $3.890</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col my-1">
+            <div class="card card-plato1 h-100 ">
+              <img src="img/Plato-Blanco-OPT01_1024x1024.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Plato Biodegradable de Macetas Blanco.
+                  <p>(Solo se le aplicara el 5% de descuento si esta suscrito a nuestra fundación)</p>
+                </h5>
+                <p class="card-text">Cantidad disponible 10
+                  <br>
+                  Precio $2.390</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col my-1">
+            <div class="card card-plato3 h-100 ">
+              <img src="img/Plato-Terracota-OPT01_1024x1024.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Plato Biodegradable de Macetas Terracota.
+                  <p>(Solo se le aplicara el 5% de descuento si esta suscrito a nuestra fundación)</p>
+                </h5>
+                <p class="card-text">Cantidad disponible 14
+                  <br>
+                  Precio $2.390</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col my-1">
+            <div class="card card-tierra h-100 ">
+              <img src="img/461997.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tierra de hoja para jardín 80 litros saco.
+                  <p>(Solo se le aplicara el 5% de descuento si esta suscrito a nuestra fundación)</p>
+                </h5>
+                <p class="card-text">Cantidad disponible 14
+                  <br>
+                  Precio $8.790</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col my-1">
+            <div class="card card-tierra2 h-100 ">
+              <img src="img/609922X.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tierra Compost Multiproposito 40L.
+                  <p>(Solo se le aplicara el 5% de descuento si esta suscrito a nuestra fundación)</p>
+                </h5>
+                <p class="card-text">Cantidad disponible 40
+                  <br>
+                  Precio $4.890</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col my-1">
+            <div class="card card-tierra3 h-100 ">
+              <img src="img/839302.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tierra con abono para jardín 6 litros bolsa.
+                  <p>(Solo se le aplicara el 5% de descuento si esta suscrito a nuestra fundación)</p>
+                </h5>
+                <p class="card-text">Cantidad disponible 40
+                  <br>
+                  Precio $1.690</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col my-1">
+            <div class="card card-lavanda h-100 ">
+              <img src="img/lavanda_2900-removebg-preview_453x453.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Planta Exterior Lavanda Francesa.
+                  <p>(Solo se le aplicara el 5% de descuento si esta suscrito a nuestra fundación)</p>
+                </h5>
+                <p class="card-text">Cantidad disponible 40
+                  <br>
+                  Precio $1.990</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col my-1">
+            <div class="card card-reina-luisa-enana h-100 ">
+              <img src="img/109REINAMAGTAENANA_1024x1024.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Semillas de Reina Luisa Enana.
+                  <p>(Solo se le aplicara el 5% de descuento si esta suscrito a nuestra fundación)</p>
+                </h5>
+                <p class="card-text">Cantidad disponible 12
+                  <br>
+                  Precio $1.990</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col my-1">
+            <div class="card card-claveon h-100 ">
+              <img src="img/claveon.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Claveón 0,10 m.
+                  <p>(Solo se le aplicara el 5% de descuento si esta suscrito a nuestra fundación)</p>
+                </h5>
+                <p class="card-text">Cantidad disponible 0
+                  <br>
+                  Precio $1.990</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col my-1">
+            <div class="card card-arbusto h-100 ">
+              <img src="img/arbusto.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Boj Bola de Viveros Los Boldos.
+                  <p>(Solo se le aplicara el 5% de descuento si esta suscrito a nuestra fundación)</p>
+                </h5>
+                <p class="card-text">Cantidad disponible 0
+                  <br>
+                  Precio $16.990</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col my-1">
+            <div class="card card-arbusto2 h-100 ">
+              <img src="img/arbusto2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Boj Bola Las Bandurrias.
+                  <p>(Solo se le aplicara el 5% de descuento si esta suscrito a nuestra fundación)</p>
+                </h5>
+                <p class="card-text">Cantidad disponible 10
+                  <br>
+                  Precio $22.990</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col my-1">
+            <div class="card card-azalea h-100 ">
+              <img src="img/Azalea.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Azalea.
+                  <p>(Solo se le aplicara el 5% de descuento si esta suscrito a nuestra fundación)</p>
+                </h5>
+                <p class="card-text">Cantidad disponible 10
+                  <br>
+                  Precio $7.990</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+  <!--FOOTER-->
+  <footer class="text-center text-lg-start text-white mt-4">
+
+    <div class="container p-4 pb-5">
+      <section>
+        
+        <!--ROW-->
+        <div class="row">
+
+          <!--COL-->
+          <div class="col-md-3 col-lg-3 col-xl-3 mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Nuestra Compañia</h6>
+            <p style="color: white;">Somos una comunidad organizada por los mismos vecinos para la venta de articulos de jardinería y así
+              poder ayudar a una fundación sin fines de lucro.</p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!--COL-->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Productos</h6>
+            <p><a class="text-white">Maceteros</a></p>
+            <p><a class="text-white">Tierra de hojas</a></p>
+            <p><a class="text-white">Flores</a></p>
+            <p><a class="text-white">Arbusto</a></p>
+          </div>
+
+          <!--COL-->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold ">Contactanos</h6>
+            <p style="color: white;"><i class="fas fa-home mr-3"></i> Pirque, Santiago, Chile.</p>
+            <p style="color: white;"><i class="fas fa-envelope mr-3"></i> kingdomgarden@gmail.com</p>
+            <p style="color: white;"><i class="fas fa-phone mr-3"></i> +56978945632</p>
+          </div>
+
+          <!--COL-->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Siguenos</h6>
+
+            <!-- Facebook -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998"
+              href="https://www.facebook.com/" role="button"><i class="fab fa-facebook-f"></i></a>
+
+            <!-- Instagram -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac"
+              href="https://www.instagram.com/" role="button"><i class="fab fa-instagram"></i></a>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+  </footer>
+  <!-- END FOOTER-->
+    
+  <!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

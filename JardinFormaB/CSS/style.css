@@ -1,0 +1,151 @@
+/*color barra top y tamaño*/
+.navbar{
+    background-color: rgba(104, 187, 104, 0.863);
+    width: auto;
+}
+
+body{
+  background :url("../img/fondo.jpg") ;
+  background-size: cover;
+  background-position: center;
+}
+
+/*margen del logo*/
+.logo{
+  margin-left: 1%;
+}
+/*color de texto en top*/
+.text{
+ color: white;
+ font-size: 85%;
+ margin-left: 1%;
+}
+/*color link top*/
+.nav-link{
+  color: white;
+}
+/*color collaspse*/
+.navbar-toggler{
+  background-color: rgba(111, 179, 115, 0.863);
+}
+/*color accion puntero y letras link, borde de los link y transicion */
+.nav-link:hover{
+  background-color: rgba(85, 141, 89, 0.863);
+  color: white;
+  border-radius: 35%;
+  transition: all 1.2s;
+}
+/*color enlaces a la accion del puntero*/
+.nav-link:hover a{
+  color: white;
+}
+/*boton de buscar*/
+.btn{
+  color: white;
+  border-radius: 10px;
+}
+
+.btn:hover{
+  color: white;
+  border-color: white;
+  
+}
+
+.banner{
+  margin: 30px 0;
+  position: relative;
+}
+.banner .img-banner{
+  background-image: url(../IMG/Carrusel/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+
+  
+}
+.banner .img-banner img{
+  display: block;
+  margin: 20px auto;
+  padding: 20px 0;
+}
+.banner .text{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px){
+  .banner .img-banner img{margin-right: 100px;}
+  .banner .text{position: absolute; top: 50%; left: 10%; transform: translate(-10%, -50%); width: 50%; text-align: left;}
+  .banner .text h1{font-size: calc(2*1.5vw);}
+  .banner .text p{font-size: calc(1.2*1.5vw);}
+}
+
+/* lugar del contenido del collapse */
+.collapse{
+  justify-content: end;
+}
+
+/*color fondo, altura, posicion, altura del footer*/
+footer {
+  background-color:rgba(104, 187, 104, 0.863);
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: auto;
+  padding: 0;
+ 
+}
+
+
+
+
+/*style imagen de fondo del login*/
+.account {
+  background-image: url("../img/jardineria4.jpg");
+  width: auto;  
+  height: auto;  
+}
+
+.create {
+  background-image: url("../img/jardineria5.jpg");
+  width: auto;  
+  height: auto;  
+}
+
+/*color de las letras del texto de correo y contraseña*/
+.form-label {
+  color: rgb(255,255,0);
+}
+
+/*margen,color y borde de las casillas*/
+.mb-3 {
+  margin: auto;
+  background-color: rgba(59, 46, 16, 0.329);
+  padding: 15px;
+  border-radius: 30px;
+}
+/* color letra de la pestaña recordar contraseña*/
+.recuerda-label {
+color: rgb(255,255,0);
+}
+
+/* color letra parrafos de las cartas*/
+p{
+  color: black;
+}
+/* efecto opacidad cartas*/
+.card-img:hover{
+  opacity: 50%;
+}
+
+/*Eliminacion subrayado link cartas*/
+a{
+  text-decoration: none;
+}
+
+/*color del boton cartas*/
+.btn{
+  background-color: rgba(131, 133, 18, 0.616);
+}
+

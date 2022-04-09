@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+  <!--TOP-->
+  <nav class="navbar navbar-expand-md">
+    <div class="logo">
+      <img src="img/Logo.png" alt="Logo" style="width: 40px;">
+    </div>
+
+    <div class="text mt-1">
+      <span> #TodosNosCuidamos. Realizamos despachos a todo Chile</span>
+    </div>
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+
+    <div class="collapse navbar-collapse " id="opciones">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="createAccount.html"><i class="fa-solid fa-plus"></i> Registrate</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="signin.html"> <i class="fa-solid fa-arrow-right-to-bracket"></i> Mi Cuenta</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--HEADER-->
+  <header>
+    <nav class="navbar navbar-expand-sm" style="background-color: rgba(78, 146, 81, 0.753);">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mt-1" id="mynavbar">
+          <ul class="navbar-nav">
+            <form class="d-flex">
+              <input class="form-control me-2 mt-1" type="text" placeholder="¿Que estas buscando?">
+              <button class="btn" style="background-color: rgba(81, 122, 84, 0.452);" type="button">Buscar</button>
+            </form>
+            <li class="nav-item ">
+              <a class="nav-link" href="javascript:void(0)">Flores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Maceteros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Tierra de Hojas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Arbustos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)"><i class="fa-solid fa-cart-shopping"></i> Mi carrito</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--BANNER-->
+  <div class="banner">
+    <div class="img-banner img-fluid">
+      <img src="IMG/Carrusel/KG.png" alt="" style="border-radius: 50%; " height="400px">
+      <div class="text" style="color: #161616b9;">
+        <h1><b>¿Quienes somos?</b></h1>
+        <br>
+        <pre class="texto" style="font-size: 20px; color: #000000;">
+        Somos una comunidad de vecinos que tienen a la venta productos 
+        de jardineria, para ayudar a una fundación sin fines de lucro. 
+        Si te suscribes a nuestra comunidad obtendrás un 5% de descuento
+        en el total de la venta</pre>
+      </div>
+    </div>
+  </div>
+
+ <!-- CONTAINER -->
+ <div class="container container-main">
+
+  <div class="col mt-5">
+    <h2>Nuestros productos:</h2>
+    <h3>Flores:</h3>
+    <!-- Fila 1 -->
+    <div class="row row-cols-lg-6 row-cols-sm-1 row-cols-md-2 mx-5">
+
+      <!-- Tarjeta 1-->
+      <div class="col my-1">
+        <a href="Producto1.html">
+          <div class="card h-90 w-100">
+            <img src="IMG/1.jpg" class="card-img img-fluid" alt="" style="width: 170px;">
+            <div class="card-body h-100">
+              <h5 class="card-title text-dark">Flores Mi Tierra Clavelina 1,10m</h5>
+
+              <p style="font-size: 100%;" class="card-text mb-2">$790 C/U</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn align-bottom">Agregar al carro</a>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Tarjeta 2-->
+      <div class="col my-1">
+        <a href="Producto1.html">
+          <div class="card h-90 w-100">
+            <img src="IMG/2.jpg" class="card-img img-fluid" alt="" style="width: 170px;">
+            <div class="card-body h-100">
+              <h5 class="card-title text-dark">Las Bandurrias Genario 0,30m</h5>
+              <p style="font-size: 100%;" class="card-text mb-2">$1.990 C/U</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn align-bottom">Agregar al carro</a>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Tarjeta 3-->
+      <div class="col my-1">
+        <a href="Producto1.html">
+          <div class="card h-90 w-100">
+            <img src="IMG/3.jpg" class="card-img img-fluid" alt="" style="width: 170px;">
+            <div class="card-body h-100">
+              <h5 class="card-title text-dark">Las Bandurrias Gerbera 0,2m</h5>
+              <p style="font-size: 100%;" class="card-text mb-2">$790 C/U</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn align-bottom">Agregar al carro</a>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Tarjeta 4-->
+      <div class="col my-1">
+        <a href="Producto1.html">
+          <div class="card h-90 w-100">
+            <img src="IMG/4.jpg" class="card-img img-fluid" alt="" style="width: 170px;">
+            <div class="card-body h-100">
+              <h5 class="card-title text-dark">Las Bandurrias Gerbera 0,2m</h5>
+              <p style="font-size: 100%;" class="card-text mb-2">$790 C/U</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn align-bottom">Agregar al carro</a>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Tarjeta 5-->
+      <div class="col my-1">
+        <a href="Producto1.html">
+          <div class="card h-90 w-100">
+            <img src="IMG/5.jpg" class="card-img img-fluid" alt="" style="width: 170px;">
+            <div class="card-body h-100">
+              <h5 class="card-title text-dark">Las Bandurrias Gerbera 0,2m</h5>
+              <p style="font-size: 100%;" class="card-text mb-2">$790 C/U</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn align-bottom">Agregar al carro</a>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Tarjeta 6-->
+      <div class="col my-1">
+        <a href="Producto1.html">
+          <div class="card h-90 w-100">
+            <img src="IMG/6.jpg" class="card-img img-fluid" alt="" style="width: 170px;">
+            <div class="card-body h-100">
+              <h5 class="card-title text-dark">Lavanda Elegant 0,35m</h5>
+              <p style="font-size: 100%;" class="card-text mb-2">$2.990 C/U</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn align-bottom">Agregar al carro</a>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+    <br>
+
+    <h3>Maceteros:</h3>
+    <!-- Fila 2 -->
+    <div class="row row-cols-lg-6 row-cols-sm-1 row-cols-md-2 mx-5">
+      <!-- Tarjeta 7-->
+      <div class="col my-1 ">
+        <a href="Producto1.html">
+          <div class="card h-90 w-100">
+            <img src="IMG/m1.jpg" class="card-img img-fluid" alt="" style="width: 170px;">
+            <div class="card-body h-100">
+              <h5 class="card-title text-dark">Macetero plastico 25cm</h5>
+              <p style="font-size: 100%;">$4.190 C/U</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn align-bottom">Agregar al carro</a>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Tarjeta 8-->
+      <div class="col my-1">
+        <a href="Producto1.html">
+          <div class="card h-90 w-100">
+            <img src="IMG/m2.jpg" class="card-img img-fluid" alt="" style="width: 170px;">
+            <div class="card-body h-100">
+              <h5 class="card-title text-dark">Macetero plastico 14cm </h5>
+              <p style="font-size: 100%;">$1.990 C/U</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn align-bottom">Agregar al carro</a>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Tarjeta 9-->
+      <div class="col my-1 ">
+        <a href="Producto1.html">
+          <div class="card h-90 w-100">
+            <img src="IMG/m3.jpg" class="card-img img-fluid" alt="" style="width: 170px;">
+            <div class="card-body h-100">
+              <h5 class="card-title text-dark">Macetero colores 13 cm</h5>
+              <p style="font-size: 100%;">$2.990 C/U</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn align-bottom">Agregar al carro</a>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Tarjeta 10-->
+      <div class="col my-1">
+        <a href="Producto1.html">
+          <div class="card h-90 w-100">
+            <img src="IMG/m4.jpg" class="card-img img-fluid" alt="" style="width: 170px;">
+            <div class="card-body h-100">
+              <h5 class="card-title text-dark">Macetero ratán 25 cm</h5>
+              <p style="font-size: 100%;">$4.190 C/U</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn align-bottom">Agregar al carro</a>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Tarjeta 11-->
+      <div class="col my-1">
+        <a href="Producto1.html">
+          <div class="card h-90 w-100">
+            <img src="IMG/m5.jpg" class="card-img img-fluid" alt="" style="width: 170px;">
+            <div class="card-body h-100">
+              <h5 class="card-title text-dark">Macetero 48x34 cm</h5>
+              <p style="font-size: 100%;">$3.990 C/U</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn align-bottom">Agregar al carro</a>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Tarjeta 12-->
+      <div class="col my-1">
+        <a href="Producto1.html">
+          <div class="card h-90 w-100">
+            <img src="IMG/m6.jpg" class="card-img img-fluid" alt="" style="width: 170px;">
+            <div class="card-body h-100">
+              <h5 class="card-title text-dark">Macetero 48x34 cm</h5>
+              <p style="font-size: 100%;">$3.990 C/U</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn align-bottom">Agregar al carro</a>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+    <br>
+
+    <!-- Fila 3 -->
+    <h3>Tierra de Hoja:</h3>
+    <div class="row row-cols-lg-6 row-cols-sm-1 row-cols-md-2 mx-5">
+
+      <!-- Tarjeta 13-->
+      <div class="col my-1">
+        <a href="Producto1.html">
+          <div class="card h-90 w-100">
+            <img src="IMG/t1.jpg" class="card-img img-fluid" alt="" style="width: 170px;">
+            <div class="card-body h-100">
+              <h5 class="card-title text-dark">Tierra de hoja jardín 80L</h5>
+              <p style="font-size: 100%;">$8.790 C/U</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn align-bottom">Agregar al carro</a>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Tarjeta 14-->
+      <div class="col my-1">
+        <a href="Producto1.html">
+          <div class="card h-90 w-100">
+            <img src="IMG/t2.jpg" class="card-img img-fluid" alt="" style="width: 170px;">
+            <div class="card-body h-100">
+              <h5 class="card-title text-dark">Tierra compost Multiuso 40L</h5>
+              <p style="font-size: 100%;">$4.890 C/U</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn align-bottom">Agregar al carro</a>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Tarjeta 15-->
+      <div class="col my-1">
+        <a href="Producto1.html">
+          <div class="card h-90 w-100">
+            <img src="IMG/t3.jpg" class="card-img img-fluid" alt="" style="width: 170px;">
+            <div class="card-body h-100">
+              <h5 class="card-title text-dark">Tierra c/ abono completa 6L</h5>
+              <p style="font-size: 100%;">$9.790 C/U</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn align-bottom">Agregar al carro</a>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Tarjeta 16-->
+      <div class="col my-1">
+        <a href="Producto1.html">
+          <div class="card  h-90 w-100">
+            <img src="IMG/t4.jpg" class="card-img img-fluid" alt="" style="width: 170px;">
+            <div class="card-body h-100">
+              <h5 class="card-title text-dark">Tierra de hoja jardín 30L</h5>
+              <p style="font-size: 100%;">$5.290 C/U</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn align-bottom">Agregar al carro</a>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Tarjeta 17-->
+      <div class="col my-1">
+        <a href="Producto1.html">
+          <div class="card h-90 w-100">
+            <img src="IMG/t5.jpg" class="card-img img-fluid" alt="" style="width: 170px;">
+            <div class="card-body h-100">
+              <h5 class="card-title text-dark">Tierra de hoja jardín 8L</h5>
+              <p style="font-size: 100%;">$1.790 C/U</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn align-bottom">Agregar al carro</a>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Tarjeta 18-->
+      <div class="col my-1">
+        <a href="Producto1.html">
+          <div class="card h-90 w-100">
+            <img src="IMG/t6.jpg" class="card-img img-fluid" alt="" style="width: 170px;">
+            <div class="card-body h-100">
+              <h5 class="card-title text-dark">Tierra de hoja jardín 40L</h5>
+              <p style="font-size: 100%;">$4.490 C/U</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn align-bottom">Agregar al carro</a>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+    <br>
+
+    <!-- Fila 4 -->
+    <h3>Arbustos:</h3>
+    <div class="row row-cols-lg-6 row-cols-sm-1 row-cols-md-2 mx-5">
+
+      <!-- Tarjeta 19-->
+      <div class="col my-1">
+        <a href="Producto1.html">
+          <div class="card h-90 w-100">
+            <img src="IMG/a1.jpg" class="card-img img-fluid" alt="" style="width: 170px;">
+            <div class="card-body h-100 w-100">
+              <h5 class="card-title text-dark">Rhus crenatta 0,50 m</h5>
+              <p style="font-size: 100%;">$13.990 C/U</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn align-bottom">Agregar al carro</a>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Tarjeta 20-->
+      <div class="col my-1">
+        <a href="Producto1.html">
+          <div class="card h-90 w-100">
+            <img src="IMG/a2.jpg" class="card-img img-fluid" alt="" style="width: 170px;">
+            <div class="card-body h-100 w-100">
+              <h5 class="card-title text-dark">Las Bandurrias Boj bola 0,35m</h5>
+              <p style="font-size: 100%;">$22.990 C/U</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn align-bottom">Agregar al carro</a>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Tarjeta 21-->
+      <div class="col my-1">
+        <a href="Producto1.html">
+          <div class="card h-90 w-100">
+            <img src="IMG/a3.jpg" class="card-img img-fluid" alt="" style="width: 170px;">
+            <div class="card-body h-100 w-100">
+              <h5 class="card-title text-dark">Plumabgo capensis 0,4 m</h5>
+              <p style="font-size: 100%;">$12.990 C/U</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn align-bottom">Agregar al carro</a>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Tarjeta 22-->
+      <div class="col my-1">
+        <a href="Producto1.html">
+          <div class="card h-90 w-100">
+            <img src="IMG/a4.jpg" class="card-img img-fluid" alt="" style="width: 170px;">
+            <div class="card-body h-100 w-100">
+              <h5 class="card-title text-dark">Tomate cherry 0,30 m</h5>
+              <p style="font-size: 100%;">$3.990 C/U</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn align-bottom">Agregar al carro</a>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Tarjeta 23-->
+      <div class="col my-1">
+        <a href="Producto1.html">
+          <div class="card h-90 w-100">
+            <img src="IMG/a5.jpg" class="card-img img-fluid" alt="" style="width: 170px;">
+            <div class="card-body h-100 w-100">
+              <h5 class="card-title text-dark">Aralia japonica 0,3 m</h5>
+              <p style="font-size: 100%;">$4.990 C/U</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn align-bottom">Agregar al carro</a>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Tarjeta 24-->
+      <div class="col my-1">
+        <a href="Producto1.html">
+          <div class="card h-90 w-100">
+            <img src="IMG/a6.jpg" class="card-img img-fluid" alt="" style="width: 170px;">
+            <div class="card-body h-100">
+              <h5 class="card-title text-dark">Evonimo 0,20 m</h5>
+              <p style="font-size: 100%;">$12.990 C/U</p>
+            </div>
+            <div class="card-footer text-muted">
+              <a href="#" class="btn align-bottom">Agregar al carro</a>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+<!-- END CONTAINER -->
+
+  <!--FOOTER-->
+  <footer class="text-center text-lg-start text-white mt-4">
+
+    <div class="container p-4 pb-5">
+      <section>
+        
+        <!--ROW-->
+        <div class="row">
+
+          <!--COL-->
+          <div class="col-md-3 col-lg-3 col-xl-3 mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Nuestra Compañia</h6>
+            <p style="color: white;">Somos una comunidad organizada por los mismos vecinos para la venta de articulos de jardinería y así
+              poder ayudar a una fundación sin fines de lucro.</p>
+          </div>
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!--COL-->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Productos</h6>
+            <p><a class="text-white">Maceteros</a></p>
+            <p><a class="text-white">Tierra de hojas</a></p>
+            <p><a class="text-white">Flores</a></p>
+            <p><a class="text-white">Arbusto</a></p>
+          </div>
+
+          <!--COL-->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold ">Contactanos</h6>
+            <p style="color: white;"><i class="fas fa-home mr-3"></i> Pirque, Santiago, Chile.</p>
+            <p style="color: white;"><i class="fas fa-envelope mr-3"></i> kingdomgarden@gmail.com</p>
+            <p style="color: white;"><i class="fas fa-phone mr-3"></i> +56978945632</p>
+          </div>
+
+          <!--COL-->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Siguenos</h6>
+
+            <!-- Facebook -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998"
+              href="https://www.facebook.com/" role="button"><i class="fab fa-facebook-f"></i></a>
+
+            <!-- Instagram -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac"
+              href="https://www.instagram.com/" role="button"><i class="fab fa-instagram"></i></a>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+  </footer>
+  <!-- END FOOTER-->
+
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
